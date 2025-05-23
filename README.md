@@ -1,4 +1,4 @@
- 📝 Todo Summary Assistant
+# 📝 Todo Summary Assistant
 
 A full-stack Todo List management system built with **React**, **Spring Boot**, and **OpenAI LLM API**, integrated with **Slack** for real-time summary notifications.
 
