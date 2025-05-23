@@ -48,3 +48,9 @@ A full-stack Todo List management system built with **React**, **Spring Boot**, 
 * Output: Posts message to Slack.
 * Slack Setup: Generate webhook via Slack Incoming Webhooks.
 * Environment Variable:
+
+![1 to](https://github.com/user-attachments/assets/e92742da-e80b-4b5f-8601-96fa6bbed79d)
+
+![2 to](https://github.com/user-attachments/assets/7e51a7cc-7b58-4514-9fec-0e87f0270fe6)
+
+![3 to](https://github.com/user-attachments/assets/97bd7830-5980-4bc9-92e4-2382447dc0d2)
