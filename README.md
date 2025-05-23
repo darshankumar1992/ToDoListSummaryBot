@@ -2,7 +2,7 @@
 
 A full-stack Todo List management system built with **React**, **Spring Boot**, and **OpenAI LLM API**, integrated with **Slack** for real-time summary notifications.
 
-  Features
+##  Features
 
 - ✅ Add, update, and delete todos.
 - 📋 Toggle todo status (pending/completed).
@@ -14,9 +14,9 @@ A full-stack Todo List management system built with **React**, **Spring Boot**, 
 
 ---
 
- 📁 Project Structure
+ ## 📁 Project Structure
 
- Backend (Spring Boot)
+### Backend (Spring Boot)
 
 - `TodoListController`: Handles CRUD operations for todo items.
 - `SummaryController`: Generates summary of pending todos using OpenAI and sends it to Slack.
@@ -24,14 +24,15 @@ A full-stack Todo List management system built with **React**, **Spring Boot**, 
 - `SlackService`: Sends generated summaries to a configured Slack Webhook URL.
 - `ITodoListService`: Service interface for todo operations.
 
- Frontend (React + Tailwind CSS)
+### Frontend (React + Tailwind CSS)
 
 - `Home.jsx`: Main todo list UI with add, delete, update status functionality.
 - `Completed.jsx`: Displays completed todos.
 - `Pending.jsx`: Generates and displays summary using LLM and posts it to Slack.
 - `utils/Infos.js`: Contains base URL and error handlers.
 
- LLMService (OpenAI Integration)
+### LLMService (OpenAI Integration)
+
 * This service integrates with the OpenAI Chat Completions API to generate summaries of pending todos using GPT models like gpt-3.5-turbo.
 * Function: generateSummary(List<String> pendingTodos)
 * Input: List of todo task strings.
@@ -39,7 +40,8 @@ A full-stack Todo List management system built with **React**, **Spring Boot**, 
 * API: https://api.openai.com/v1/chat/completions
 * Environment Variable:
 
-   SlackService (Slack Webhook Integration)
+###  SlackService (Slack Webhook Integration)
+
 * This service posts generated summaries directly to a configured Slack channel using a Slack Incoming Webhook.
 * Function: sendMessageToSlack(String message)
 * Input: Plain text message (e.g., LLM-generated summary).
